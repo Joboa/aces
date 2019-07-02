@@ -1,0 +1,39 @@
+body {
+ background-color: aquamarine
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.myc a {
+  text-decoration: none !important;
+}
+
+/* .bg-light {
+  background-color: #006dcc;
+} */
+
+.bg-light {
+  background-color: #18b3f9 !important;
+}
+
+.container{
+  margin-top: 10px;
+}
+
+.card {
+  margin-right: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  height: 450px;
+  border: solid thick 10px;
+  border-radius: 15px;
+  /* box-shadow: 5px 10px #888888; */
+}
+
+.card:hover {
+  border-color: #007bff;
+  
+}
